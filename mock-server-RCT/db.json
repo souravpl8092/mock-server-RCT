@@ -1,0 +1,75 @@
+{
+  "companies": [
+    {
+      "id": 1,
+      "company_logo": "https://logolook.net/wp-content/uploads/2021/11/HDFC-Bank-Logo.png",
+      "company_name": "HDFC Bank",
+      "company_type": "Bank",
+      "stock_exchange": "NSE",
+      "total_shares": 50000,
+      "cost_per_share": 4210,
+      "price_action": 12
+    },
+    {
+      "id": 2,
+      "company_logo": "https://www.jetspot.in/wp-content/uploads/2018/03/reliance-logo.jpg",
+      "company_name": "Reliance Industries",
+      "company_type": "Oil",
+      "stock_exchange": "BSE",
+      "total_shares": 20000,
+      "cost_per_share": 2132,
+      "price_action": 4
+    }
+  ],
+
+  "users": [
+    {
+      "id": 1,
+      "username": "Sample_1",
+      "email": "sample1@gmail.com",
+      "password": "sample12345",
+      "buy_quantity": [
+        {
+          "company_name": "HDFC Bank",
+          "quantity": "100"
+        },
+        {
+          "company_name": "Reliance Industries",
+          "quantity": "250"
+        },
+        {
+          "company_name": "Infosys",
+          "quantity": "50"
+        },
+        {
+          "company_name": "IDBI Bank",
+          "quantity": "70"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "username": "Sample_2",
+      "email": "sample2@gmail.com",
+      "password": "sample12345",
+      "buy_quantity": [
+        {
+          "company_name": "Infosys",
+          "quantity": "80"
+        },
+        {
+          "company_name": "Reliance Industries",
+          "quantity": "280"
+        },
+        {
+          "company_name": "IDBI Bank",
+          "quantity": "40"
+        },
+        {
+          "company_name": "HDFC Bank",
+          "quantity": "120"
+        }
+      ]
+    }
+  ]
+}
